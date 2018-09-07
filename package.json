@@ -8,7 +8,7 @@
   "scripts": {
     "test": "npm run eslint",
     "eslint": "./node_modules/.bin/eslint .",
-    "rmrf": "rm -rf dist",
+    "rmrf": "rm -rf docs",
     "build:dev": "npm run rmrf && webpack --env.development",
     "build:prod": "npm run rmrf && webpack -p --env.production",
     "build": "npm run build:dev",
