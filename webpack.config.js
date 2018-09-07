@@ -14,7 +14,7 @@ const buildDirectory = resolve(__dirname, 'docs');
 
 module.exports = (env) => {
   const isProduction = env.production;
-  const publicPath = '/';
+  const publicPath = '';
   const imagesLocation = 'images/';
 
   const extractSass = new ExtractTextPlugin({
