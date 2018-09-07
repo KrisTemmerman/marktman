@@ -10,7 +10,7 @@ const ImageminPlugin = require('imagemin-webpack-plugin').default;
  * Define source & build directories
  */
 const sourceDirectory = resolve(__dirname, 'app');
-const buildDirectory = resolve(__dirname, 'dist');
+const buildDirectory = resolve(__dirname, 'docs');
 
 module.exports = (env) => {
   const isProduction = env.production;
