@@ -1,38 +1,12 @@
 @import 'override-bootstrap-defaults';
 @import '../../node_modules/bootstrap/scss/bootstrap';
-
+@import './animate';
 /* Font settings */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
 
 @import './header';
 @import './eye-catcher';
-
-.gray-block {
-  background-color: #eee;
-}
-.gray-block-title {
-  font-family: 'Roboto', 'sans-serif';
-  font-weight: lighter;
-  color: #333;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-}
-
-.features {
-    height:900px;
-  font-family: 'Roboto', 'sans-serif';
-  color: #333;
-}
-.feature-card{
-    background-color:$white;
-}
-.feature-card-description{
-    font-size:1rem;
-}
-// Helper
-
-.learn-more {
-  position: absolute;
-  bottom: 0;
-}
+@import './learn-more';
+@import './features';
+@import './helpers';

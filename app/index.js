@@ -4,14 +4,18 @@ import $ from 'jquery';
 
 import './styles/index.scss';
 
-/*
- * I didn't use arrow callback because in the current version of webpack
- * on production build it returns an error.
- */
-$(function onReady() { // eslint-disable-line prefer-arrow-callback
-  Holder.addTheme('thumb', {
-    background: '#55595c',
-    foreground: '#eceeef',
-    text: 'Thumbnail',
+$(function() {
+  console.log('hello there');
+  $('a[href*=\\#]:not([href=\\#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
   });
 });
