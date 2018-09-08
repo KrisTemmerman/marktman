@@ -1,106 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Bootstrap 4 Webpack 3</title>
+  <meta charset="UTF-8">
+  <title>Marktman - Market management </title>
 </head>
+
 <body>
-
-<div class="collapse bg-inverse" id="navbarHeader">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8 py-4">
-                <h4 class="text-white">About</h4>
-                <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
-            </div>
-            <div class="col-sm-4 py-4">
-                <h4 class="text-white">Contact</h4>
-                <ul class="list-unstyled">
-                    <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                    <li><a href="#" class="text-white">Like on Facebook</a></li>
-                    <li><a href="#" class="text-white">Email me</a></li>
-                </ul>
-            </div>
+  <header class="header">
+    <div class="menu">
+      <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3">
+        <h5 class="my-0 mr-md-auto logo">Marktman</h5>
+        <nav class="my-2 my-md-0 mr-md-3 main-nav">
+          <a class="p-2" href="#">Features</a>
+          <a class="p-2" href="#">Contact</a>
+        </nav>
+      </div>
+    </div>
+    <div class="row h-100">
+      <div class="col-sm-12 my-auto">
+        <div class="w-50 mx-auto eye-catcher">
+          <img src="images/logo.svg" alt="Marktman Logo" class="mx-auto d-block">
+          <h4 class="p-4"> Beheer zorgenloos je rommelmarkt</h4>
         </div>
+      </div>
     </div>
-</div>
-<div class="navbar navbar-inverse bg-inverse">
-    <div class="container d-flex justify-content-between">
-        <a href="#" class="navbar-brand">Album</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="learn-more">
+      Meer lezen
     </div>
-</div>
-
-<section class="jumbotron text-center">
-    <div class="container">
-        <h1 class="jumbotron-heading">Album example</h1>
-        <p><img src="/images/nyan.gif" alt="nyan" width="100" /></p>
-        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-        <p>
-            <a href="#" class="btn btn-primary">Main call to action</a>
-            <a href="#" class="btn btn-secondary">Secondary action</a>
-        </p>
-    </div>
-</section>
-
-<div class="album text-muted">
-    <div class="container">
-
-        <div class="row">
-            <div class="card">
-                <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <div class="row gray-block">
+      <div class="container">
+        <div class="features">
+          <div class="features-intro  p-4 ">
+            <h2 class="text-center gray-block-title">Features </h2>
+            <p class="small text-center">
+              Om het beheer van jouw markt probleemloos te laten verlopen,<br>
+              hebben wij alvast een aantal features uitgewerkt
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-6">
+              <div class="feature-card">
+                <img class="d-block mx-auto pt-4 pb-3" src="./images/add-user.svg" alt="Gebruiker Registratie">
+                <h5 class="text-center">Registratie</h5>
+                <p class="text-center pl-2 pr-2 pb-4 feature-card-description">
+                  Standplaatshouders kunnen zich op een
+                  eenvoudige manier registreren
+                </p>
+              </div>
             </div>
-            <div class="card">
-                <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="col-md-4 col-6">
+              <div class="feature-card">
+                <img class="d-block mx-auto pt-4 pb-3" src="./images/add-spot.svg" alt="Gebruiker Registratie">
+                <h5 class="text-center">Plaatsen toekennen</h5>
+                <p class="text-center pl-2 pr-2 pb-4 feature-card-description">
+                  Plaatsen toekennen met ons systeem
+                  is super eenvoudig
+                </p>
+              </div>
             </div>
-            <div class="card">
-                <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="col-md-4 col-6">
+              <div class="feature-card">
+                <img class="d-block mx-auto pt-4 pb-3" src="./images/status.svg" alt="Gebruiker Registratie">
+                <h5 class="text-center">Overzichtelijk</h5>
+                <p class="text-center pl-2 pr-2 pb-4 feature-card-description">
+                  In één oogopslag de status van je plaatsen bekijken
+                </p>
+              </div>
             </div>
-
-            <div class="card">
-                <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-6">
+              <div class="feature-card">
+                <img class="d-block mx-auto pt-4 pb-3" src="./images/email.svg" alt="Gebruiker Registratie">
+                <h5 class="text-center">E-mail</h5>
+                <p class="text-center pl-2 pr-2 pb-4 feature-card-description">
+                  Breng je standplaatshouders
+                  op de hoogte </p>
+              </div>
             </div>
-            <div class="card">
-                <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="col-md-4 col-6">
+              <div class="feature-card">
+                <img class="d-block mx-auto pt-4 pb-3" src="./images/ticket.svg" alt="Gebruiker Registratie">
+                <h5 class="text-center">Doorgangsbewijzen</h5>
+                <p class="text-center pl-2 pr-2 pb-4 feature-card-description">
+                  Genereer doorgangsbewijzen voor je standhouders</p>
+              </div>
             </div>
-            <div class="card">
-                <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="col-md-4 col-6">
+              <div class="feature-card">
+                <img class="d-block mx-auto pt-4 pb-3" src="./images/cloud.svg" alt="Gebruiker Registratie">
+                <h5 class="text-center">Standhouders in de cloud</h5>
+                <p class="text-center pl-2 pr-2 pb-4 feature-card-description">
+                  Bewaar je deelnemers voor toekomstige markten</p>
+              </div>
             </div>
-
-            <div class="card">
-                <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-            <div class="card">
-                <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-            <div class="card">
-                <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
+          </div>
         </div>
-
+      </div>
     </div>
-</div>
-
-<footer class="text-muted">
-    <div class="container">
-        <p class="float-right">
-            <a href="#">Back to top</a>
-        </p>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
-    </div>
-</footer>
-
+  </header>
 </body>
+
 </html>
